@@ -14,7 +14,7 @@ namespace App
             };
 
             appBuilder.UseErrorPage(errorOptions);
-            appBuilder.UseWelcomePage("/welcome.html");
+            appBuilder.UseWelcomePage("/api/welcome.html");
 
             var config = new HttpConfiguration();
 

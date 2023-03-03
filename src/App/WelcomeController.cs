@@ -2,7 +2,7 @@
 
 namespace App
 {
-    public class HomeController : ApiController
+    public class WelcomeController : ApiController
     {
         [HttpGet]
         public string GetRunningMessage()

@@ -19,7 +19,7 @@ namespace Tests
         {
             using (var client = _httpServerFixture.CreateHttpClient())
             {
-                using (var response = await client.GetAsync("api/home"))
+                using (var response = await client.GetAsync("api/welcome"))
                 {
                     response.Should().NotBeNull();
                     response.IsSuccessStatusCode.Should().BeTrue();
